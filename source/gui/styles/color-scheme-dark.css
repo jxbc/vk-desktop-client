@@ -1,0 +1,27 @@
+:root {
+	--color-background: #000;
+	--color-header: #161616;
+	--color-appname: #fff;
+	--color-index: #fff;
+	--input-background: #141414;
+	--input-border: #494949;
+	--input-color: #c7c7c7;
+	--input-color-focus: #fff;
+	--auth-form: #1c1c1c;
+	--left_menu: #08090a;
+	--content_block: #111;
+	--block_name_header: #0089ff;
+	--blue_filter: brightness(0) saturate(100%) invert(36%) sepia(94%) saturate(1040%) hue-rotate(175deg) brightness(100%) contrast(107%);
+	--bluedark_filter: brightness(0) saturate(100%) invert(24%) sepia(18%) saturate(1788%) hue-rotate(160deg) brightness(98%) contrast(91%);
+	--messenger_background: #080808;
+	--messenger_input: #0a0b0c;
+	--msgblock: #101418;
+	--msgblock_out: #092b49;
+	--button4: #292929;
+	--messenger_footer: #000;
+	--messenger_header: #000;
+	--alert: #1d1f2bad;
+	--dialogActive: #122332;
+	--pinDialogs: #021c29;
+	--popup: #101b2b;
+}

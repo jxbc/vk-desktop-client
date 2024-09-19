@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+	<title>VK Desktop</title>
+	<link rel="shortcut icon" href="" type="image/jpeg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="./styles/color-scheme-dark.css" id="color-scheme">
+	<link rel="stylesheet" href="./styles/ui.css">
+	<link rel="stylesheet" href="./styles/base-ui.css">
+</head>
+<body>
+	<div class="main_app">
+		<div class="header w:max">
+			<div class="header_side flex justify:between">
+				<div class="header_app_name flex align:center">
+					<span class="icon icon:wh:24 icon:vk-logo" style="background-position-y: 1px;"></span>VK Desktop
+				</div>
+				<div class="window_buttons flex">
+					<div class="window_circle blue" id="windowHide"></div>
+					<div class="window_circle yellow margin:lr:5" id="windowMax"></div>
+					<div class="window_circle red" id="windowClose"></div>
+				</div>
+			</div>
+		</div>
+		<div class="w:max h:max flex:center flex dir:column loadCaptureScreen">
+			<div class="flex align:center">
+				<span class="icon icon:wh:128 icon:vk-logo delay:05 logo" style="background-position-y: 1px;"></span>
+				<span class="nite fsize:50 fweight:bold delay:05">Nite</span>
+			</div>
+			<div class="form authForm">
+				<div class="form lands display:0" id="authLoginWindow">
+					<div class="form title">Авторизация</div>
+					<div class="inputs" style="margin: 16px 0;">
+						<input type="text" class="input style1 formLogin" placeholder="Номер телефона">
+						<input type="password" class="input style1 formPassword" placeholder="Пароль">
+					</div>
+					<div class="button style1 buttonAuthLogin">Авторизоваться</div>
+					<div class="button style2 loginWithToken">Войти с токена</div>
+				</div>
+				<div class="form lands display:0" id="authTokenWindow">
+					<div class="form title">Авторизация по токену</div>
+					<div class="_nGsXa color:blue" style="font-size: 12px; margin-top: 4px;">Рекомендуем: Kate Mobile</div>
+					<div class="inputs" style="margin: 16px 0;">
+						<input type="text" class="input style1 formToken" placeholder="Access token">
+					</div>
+					<div class="button style1 buttonAuthToken">Авторизоваться</div>
+				</div>
+			</div>
+		</div>
+		<div class="pushAlerts"></div>
+	</div>
+	<script src="./js/render.js" defer></script>
+	<script src="./js/utils.js" defer></script>
+	<script src="./js/main.js" defer></script>
+</body>
+</html>

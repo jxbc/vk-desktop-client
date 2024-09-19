@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'VK Sans';
+	src: url('https://github.com/Eugene-max/VK-Sans-Display-font/raw/main/VKSansDisplay-Regular.ttf');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'VK Sans';
+	src: url('https://github.com/Eugene-max/VK-Sans-Display-font/raw/main/VKSansDisplay-Medium.ttf');
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'VK Sans';
+	src: url('https://github.com/Eugene-max/VK-Sans-Display-font/raw/main/VKSansDisplay-DemiBold.ttf');
+	font-style: normal;
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'VK Sans';
+	src: url('https://github.com/Eugene-max/VK-Sans-Display-font/raw/main/VKSansDisplay-Bold.ttf');
+	font-style: normal;
+	font-weight: 700;
+}

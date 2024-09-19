@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+	<title>VK Desktop</title>
+	<link rel="shortcut icon" href="" type="image/jpeg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="./styles/color-scheme-dark.css" id="color-scheme">
+	<link rel="stylesheet" href="./styles/ui.css">
+	<link rel="stylesheet" href="./styles/messenger.css">
+	<link rel="stylesheet" href="./styles/base-ui.css">
+</head>
+<body style="">
+	<div class="main_app">
+		<div class="header w:max">
+			<div class="header_side flex justify:between">
+				<div class="header_app_name flex align:center">
+					<span class="icon icon:wh:24 icon:vk-logo logo" style="background-position-y: 1px;"></span><span class="title__">VK Desktop</span>
+				</div>
+				<div class="window_buttons flex">
+					<div class="window_circle blue" id="windowHide"></div>
+					<div class="window_circle yellow margin:lr:5" id="windowMax"></div>
+					<div class="window_circle red" id="windowClose"></div>
+				</div>
+			</div>
+		</div>
+		<div class="w:max flex" style="height: calc(100vh - 30px);" id="appContainer">
+			<div class="left_side_menu flex dir:column">
+				<div class="blockMenu">
+					<div class="menu profile flex:center flex">
+						<div class="menuButton profile flex">
+						</div>
+					</div>
+				</div>
+				<div class="blockMenu">
+					<div class="menu messenger flex:center flex">
+						<div class="menuButton btnnews flex">
+							<div class="icon icon:wh:36 icon:messenger icon:fix" style="filter: invert(52%) sepia(74%) saturate(6439%) hue-rotate(194deg) brightness(105%) contrast(103%);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="blockMenu">
+					<div class="menu friends flex:center flex">
+						<div class="menuButton btnmessages flex">
+							<div class="icon icon:wh:36 icon:music icon:fix" style="filter: invert(52%) sepia(74%) saturate(6439%) hue-rotate(194deg) brightness(105%) contrast(103%);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="blockMenu">
+					<div class="menu settings flex:center flex">
+						<div class="menuButton btnsettings flex">
+							<div class="icon icon:wh:36 icon:settings icon:fix" style="filter: invert(52%) sepia(74%) saturate(6439%) hue-rotate(194deg) brightness(105%) contrast(103%);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right_side_content">
+				<div class="content">
+					<div class="contentBlock" id="interface_messages">
+						<div class="flex messagesInt" style="height: calc(89vh - 30px);">
+							<div class="dialogs">
+								<div class="dialogsPanel flex">
+									<div count="0" class="button dgChannel all style4 active">Все</div>
+									<div count="0" class="button dgChannel private style4">Личные</div>
+									<div count="0" class="button dgChannel chats style4">Чаты</div>
+								</div>
+							</div>
+							<div class="messages_display">
+								<div class="messages_header" style="backdrop-filter: none;">
+									<div class="title fweight:bold" style="display: inline-block;"><span style='color:var(--block_name_header);'>КАНАЛ:</span> Все чаты</div>
+									<div class="_chat_activity" style="display:inline-flex;color: var(--input-border);margin-left: 7px;font-size: 13px;"></div>
+									<div class="typing_checker color:blue" style="float:right;">
+										<div class="secureMsg button icon:secure icon:fix icon:wh:24" style="filter: var(--bluedark_filter);"></div>
+									</div>
+									<div class="avatar"></div>
+								</div>
+								<div class="messages_content">
+									<div class="messages">
+									</div>
+								</div>
+								<div class="messages_footer">
+									<div class="messanger_others">
+										<div style="margin-left: 13px;" class="attachFiles icon:wh:24 icon icon:attach button svg:blue"></div>
+									</div>
+									<div class="messanger_input" style="margin-left: 12px;">
+										<div class="input" contenteditable></div>
+										<div style="margin-left: 8px; float: right;" class="sendEmoji icon:wh:24 icon icon:sticker icon:fix button svg:blue"></div>
+									</div>
+									<div class="messanger_voice">
+										<div style="margin-left: 8px;" class="sendService icon:wh:24 icon icon:zap button svg:blue"></div>
+									</div>
+								</div>
+							</div>
+							<div class="_profile_display">
+								<div class="_bButtons flex">
+									<div class="button _chatInfo style4 active">Инфо</div>
+									<div class="button _stickers style4">Стикеры</div>
+									<div class="button _stickers style4">Смайлы</div>
+									<div class="button _stickers style4">GIF</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pushAlerts"></div>
+	</div>
+	<script src="./js/render.js" defer></script>
+	<script src="./js/utils.js" defer></script>
+	<script src="./js/main.js" defer></script>
+	<script src="./js/modules/messages.js" type="module" id="module.msg" defer></script>
+</body>
+</html>
