@@ -5,6 +5,8 @@
 ![image](https://github.com/user-attachments/assets/02585c21-dd32-4273-962f-642d2ef7aa39)
 ![image](https://github.com/user-attachments/assets/47db0ce0-747a-493a-bb89-604b82e94e09)
 
+### Как мог выглядеть VK Desktop в 2024
+![image](https://github.com/user-attachments/assets/ff6957ad-ab7b-47e2-a971-718c14abf68a)
 
 
 # Возможности
