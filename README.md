@@ -2,7 +2,10 @@
 Приложение для ВКонтакте, с помощью которого вы можете находится в социальной сети с Windows, Linux и Mac.
 
 На скрине изображена не вышедшая версия VK Client, возможно когда-нибудь она выйдет... Когда настанет мир.
-![image](https://github.com/jxbc/vk-desktop-client/assets/30753109/22d418e6-246a-44c8-84b7-a8a69b094eb8)
+![image](https://github.com/user-attachments/assets/02585c21-dd32-4273-962f-642d2ef7aa39)
+![image](https://github.com/user-attachments/assets/47db0ce0-747a-493a-bb89-604b82e94e09)
+
+
 
 # Возможности
 Все основные возможности описаны [на этой прекрасной странице](https://github.com/jxbc/vk-desktop-client/wiki)
